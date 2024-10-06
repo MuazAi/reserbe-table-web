@@ -1,8 +1,9 @@
 import logo from "../img/logo.png";
-function Header(){
+function Header({children}){
     return (
-        <header>
-            <img src={logo} />.
+        <header style={{display:'grid',gridTemplateColumns:'auto 1fr',width:'80%', margin:'auto'}}>
+            <img src={logo} />
+            {children}
         </header>
     )
 }

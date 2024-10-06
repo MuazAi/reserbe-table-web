@@ -1,3 +1,7 @@
+:root {
+  --primary-color-1: #495E57;
+  --primary-color-2: #F4CE14;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +39,12 @@
   to {
     transform: rotate(360deg);
   }
+}
+a{
+    text-decoration: none;
+    color:var(--primary-color-1);
+    font-weight: 500;
+}
+ul{
+  list-style:none;
 }
